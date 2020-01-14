@@ -1,0 +1,55 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: blue;
+  &:hover {
+    color: black;
+  }
+  font-size: 12px;
+  text-decoration: none;
+}
+
+p {
+  color: grey;
+  font-size: 12px;
+}
+
+.title {
+  display: flex;
+  justify-content: left;
+}
+
+.question {
+  display: flex;
+  justify-content: left;
+  padding: 15px;
+}
+
+.answer {
+  display: flex;
+  justify-content: left;
+  background-color: #FFFEE1;
+  padding: 15px;
+}
+
+.link {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  padding: 10px 0px;
+}
+
+.form {
+  display: flex;
+  justify-content: left;
+}
+
+.btn {
+  background-color: #337AB8;
+  color: white;
+}

@@ -1,0 +1,19 @@
+<div class= "title">
+ <h1>Stupid Coaching</h1>
+</div>
+
+<div>
+  <p>Ask your coach anything:</p>
+</div>
+
+<div class="question">
+ <p><%= @user_input %></p>
+</div>
+
+<div class = "form">
+<form action="/answer">
+  <input type="text" name="user_input">
+  <input class= "btn" type="submit" value="Ask!">
+</form>
+</div>
+
