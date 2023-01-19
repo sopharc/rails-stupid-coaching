@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+.answer_container {
+  margin: 1.5em 2em;
+  padding: 0.5em 1em;
+  align-content: center;
+  border: 2px solid grey;
+}
+
+.coach {
+  background-color: lightyellow;
+}
+
+.btn.btn-primary a {
+  color: white;
+  text-decoration: none;
+}
